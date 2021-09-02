@@ -40,7 +40,7 @@ const display = data => {
         
         <div class="card p-3">
         <img 
-        src="https://covers.openlibrary.org/b/id/${item.cover_i}-M.jpg" class="card-img-top" alt="...">
+        src="https://covers.openlibrary.org/b/id/${item.cover_i}-M.jpg" class="card-img-top img-fluid" alt="...">
             <h4 class="card-title">Book Title: ${item.title}</h4>
             <p class="card-title">Author Name: ${item.author_name}</p>
             <p>Publisher: ${item.publisher}</p>
