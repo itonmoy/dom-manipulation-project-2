@@ -7,21 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Archive</title>
-    <!-- bootstraps -->
+    <!-- bootstrap css file link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
-    <!--  Book  Title  -->
+    <!-- title  -->
     <section class="container mb-3">
-        <h1 class="text-center">BOOK ARCHIVE</h1>
+        <h1 class="text-center ">BOOK ARCHIVE</h1>
     </section>
-    <!-- searching options  -->
+    <!-- input field and button  -->
     <section class="container mb-3">
         <div class="input-group mb-3">
             <!-- input field -->
-            <input id="input-field" type="text" class="form-control" placeholder="Type the name of Book"
+            <input id="input-field" type="text" class="form-control" placeholder="search the book name that you want"
                 aria-label="Recipient's username" aria-describedby="button-addon2">
             <!-- button  -->
             <button id="button" class="btn btn-outline-secondary bg-primary text-light" type="button"
@@ -29,10 +29,15 @@
                 Me</button>
         </div>
     </section>
-
-    <!--  dynamic html  -->
+    <!-- warning-massage  -->
     <section class="container">
-        <div id="main-div">
+        <div id="warning-massage">
+
+        </div>
+    </section>
+    <!-- show books  -->
+    <section class="container">
+        <div id="main-div" class="row row-cols-1 row-cols-md-3 g-5">
 
         </div>
     </section>
